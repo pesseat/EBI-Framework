@@ -1,3 +1,10 @@
+/*
+THIS VERSION IS DEPRECIATED. say so in the log.
+*/
+// Compatibility
+console = typeof console === 'undefined' ? {log:function(str){alert(str)}} : console;
+console.log('This site is using a depreciated version of the visual assets, please have the site mainainer update.');
+
 /* Copyright (c) EMBL-EBI 2016
    Authors: 
    Ken Hawkins (khawkins@ebi.ac.uk)
